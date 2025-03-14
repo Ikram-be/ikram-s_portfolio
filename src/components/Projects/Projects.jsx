@@ -106,7 +106,7 @@ const Projects = () => {
                         whileHover={{ scale: 1.02 }}>
                         <h3>Personal Website</h3>
                         <motion.a 
-                            href="https://github.com/Ikram-be/porfolio" 
+                            href="https://github.com/Ikram-be/ikram-s_portfolio" 
                             target="_blank"
                             whileHover={{ scale: 1.2, rotate: 5 }}
                             transition={{ duration: 0.2 }}>
