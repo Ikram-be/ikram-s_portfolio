@@ -7,6 +7,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: ['framer-motion'], // Add 'framer-motion' to the external modules
+      external: ['@fortawesome/react-fontawesome'], // Add '@fortawesome/react-fontawesome' to the external modules
     },
   },
 })

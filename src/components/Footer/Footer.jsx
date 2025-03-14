@@ -6,11 +6,11 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
-        <footer class="footer">
+        <footer className="footer">
             <p>Made with   <FontAwesomeIcon icon={faHeart} style={{ color: 'red', fontSize: '24px' }} /> by Ikram</p>
 
   
-            <p class="copyright">&copy; Ikram Belhimer | All Rights Reserved</p>
+            <p className="copyright">&copy; Ikram Belhimer | All Rights Reserved</p>
          </footer>
 
     );
