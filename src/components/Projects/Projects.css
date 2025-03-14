@@ -1,0 +1,90 @@
+.projects h2 span{
+    color: var(--main-color);
+    text-shadow: 0 0 50px var(--main-color);
+  }
+  .projects {
+    padding: 15rem 9%;
+    background: var(--bg-color);
+    text-align: center;
+    
+  }
+  .titre{
+    text-align: center;
+    font-size: 8rem;
+  }
+  .projects-content h2{
+    line-height: 1.5;
+  }
+  
+  .projects .heading {
+    font-size: 10rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+  }
+  
+  .projects p {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    margin-bottom: 4rem;
+  }
+  
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .project-card {
+    background: var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid var(--main-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px var(--main-color);
+  }
+  
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-header h3 {
+    font-size: 2rem;
+    color: var(--main-color);
+  }
+  
+  .project-header a {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .project-header a:hover {
+    color: var(--text-color);
+  }
+  
+  .project-date {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+  }
+  
+  .project-tech {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-style: italic;
+  }
+  
+  .project-description {
+    font-size: 1.4rem;
+    color: var(--text-color);
+  }
