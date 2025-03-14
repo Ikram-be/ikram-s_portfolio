@@ -74,7 +74,7 @@ const About = () => {
                 viewport={{ once: true, amount: 0.3 }}
                 variants={imgVariants}>
                 <motion.img 
-                    src="iiii.jpg" 
+                    src="/iiii.jpg" 
                     whileHover={{ 
                         scale: 1.05,
                         transition: { duration: 0.3 }

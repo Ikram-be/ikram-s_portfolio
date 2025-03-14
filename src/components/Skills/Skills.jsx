@@ -89,7 +89,7 @@ const Skills = () => {
                                 className="skill-icon"
                                 whileHover={{ rotate: 360 }}
                                 transition={{ duration: 0.6 }}>
-                                <img src="html5.svg" />
+                                <img src="/html5.svg" />
                             </motion.div>
                             <h3>HTML</h3>
                     </motion.div>
@@ -104,7 +104,7 @@ const Skills = () => {
                                 className="skill-icon"
                                 whileHover={{ rotate: 360 }}
                                 transition={{ duration: 0.6 }}>
-                                <img src="css.svg" />
+                                <img src="/css.svg" />
                             </motion.div>
                             <h3>CSS</h3>
                     </motion.div>
@@ -122,7 +122,7 @@ const Skills = () => {
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="js (2).svg" width="24" height="24" />
+                            <img src="/js (2).svg" width="24" height="24" />
                         </motion.div>
                         <h3>JavaScript</h3>
                     </motion.div>
@@ -171,7 +171,7 @@ const Skills = () => {
                             className="skill-icon"
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}>
-                            <img src="python-svgrepo-com.svg" width="32" height="32" />
+                            <img src="/python-svgrepo-com.svg" width="32" height="32" />
                         </motion.div>
                         <h3>Python</h3>
                     </motion.div>
@@ -189,7 +189,7 @@ const Skills = () => {
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="mysql-logo-svgrepo-com.svg" width="32" height="32" />
+                            <img src="/mysql-logo-svgrepo-com.svg" width="32" height="32" />
                         </motion.div>
                         <h3>MYSQL</h3>
                     </motion.div>
@@ -221,7 +221,7 @@ const Skills = () => {
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="git.svg" width="32" height="32" />
+                            <img src="/git.svg" width="32" height="32" />
                         </motion.div>
                         <h3>Git</h3>
                     </motion.div>
@@ -257,7 +257,7 @@ const Skills = () => {
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="vscode.svg" />
+                            <img src="/vscode.svg" />
                         </motion.div>
                         <h3>VS Code</h3>
                     </motion.div>

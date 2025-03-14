@@ -39,7 +39,7 @@ const iconVariant = {
         return (
             <motion.section className="home" id="home" initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3}} >
                 <motion.div className="home-img" variants={slideFromLeft}>
-                    <img src="iiii.jpg" />
+                    <img src="/iiii.jpg" />
                 </motion.div>
             <motion.div className="home-content" variants={slideFromRight}>
                     <motion.h1 initial={{ opacity: 0 }} 
