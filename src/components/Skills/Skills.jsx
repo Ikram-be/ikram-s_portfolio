@@ -122,7 +122,7 @@ const Skills = () => {
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}
                         >
-                            <img src="/js (2).svg" width="24" height="24" />
+                            <img src="/js%20(2).svg" width="24" height="24"  />
                         </motion.div>
                         <h3>JavaScript</h3>
                     </motion.div>

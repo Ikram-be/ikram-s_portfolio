@@ -4,5 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/ikram-s_portfolio",
+  build: {
+    rollupOptions: {
+      external: ['framer-motion'], // Add 'framer-motion' to the external modules
+    },
+  },
 })
