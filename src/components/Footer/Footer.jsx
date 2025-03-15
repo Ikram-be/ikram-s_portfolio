@@ -7,7 +7,7 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 const Footer = () => {
     return (
         <footer className="footer">
-            <p>Made with   <FontAwesomeIcon icon={faHeart} style={{ color: 'red', fontSize: '24px' }} /> by Ikram</p>
+            <p>Made with  <i className='bx bxs-heart' width="14" ></i> by Ikram</p>
 
   
             <p className="copyright">&copy; Ikram Belhimer | All Rights Reserved</p>
