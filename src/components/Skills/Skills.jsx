@@ -171,7 +171,7 @@ const Skills = () => {
                             className="skill-icon"
                             whileHover={{ rotate: 360 }}
                             transition={{ duration: 0.6 }}>
-                            <img src="/python-svgrepo-com.svg" width="32" height="32" />
+                            <img src="/python.png" width="32" height="32" />
                         </motion.div>
                         <h3>Python</h3>
                     </motion.div>

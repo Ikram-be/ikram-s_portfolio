@@ -10,7 +10,6 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function App() {
   console.log("Le composant App est rendu !");
